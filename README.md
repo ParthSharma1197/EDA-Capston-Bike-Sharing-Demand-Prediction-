@@ -26,7 +26,7 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 
 ## **Project Files :**
 
-* **Bike Sharing Demand Prediction-** Capstone Project.ipynb - This file includes complete implementation of the project such as Features description, exploratory data Analysis, feature engineering, feature scaling and implemented algorithms.
+* **Bike Sharing Demand Prediction-Capstone Project.ipynb -** This file includes complete implementation of the project such as Features description, exploratory data Analysis, feature engineering, feature scaling and implemented algorithms.
 * **Project PPT -** This is a power point presentation file for the  project. It includes various visualaized plots of EDA . The result of the algorithms.
 * **Project Summary -** A brief summary of the project.
 * **Technical Documentation -** This document includes all the basic information and description of different stages of the project.
