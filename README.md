@@ -48,12 +48,12 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 * Random Forest tuning with Randomized Search CV and  Gradient Boosting Regressor with GridSearchCV is giving comparably good results R2 score is 89% and 91% repectively.
 
 ## **Model Reference:**
-* ##### Linear Regression:  https://machinelearningmastery.com/linear-regression-for-machine-learning/
-* ##### Lasso Regression:  https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
-* ##### Ridge Regression:  https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
-* ##### Decision Tree :  https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm
-* ##### Random Forest:  https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f
-* ##### Gradient Boosting:  https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/
+* Linear Regression:  https://machinelearningmastery.com/linear-regression-for-machine-learning/
+* Lasso Regression:  https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+* Ridge Regression:  https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+* Decision Tree :  https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm
+* Random Forest:  https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f
+* Gradient Boosting:  https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/
 
 ## **Summary:**
   Starting with loading the data and having an understanding of the data next step is processing the data set by looking and treating the outliers, duplicates, missing   values ,encoding of categorical columns, transforming the data,checking, transforming the data according to the assumption  was a challenging task and at last         building the model. Testing the models on the test data the R2 score ranged from 54.5% to 91.5% and hypertunned  Gradient Boosting Regressor giving the best results.
