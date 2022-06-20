@@ -9,23 +9,30 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 
 ### <b>Attribute Information: </b>
 
-* ### Date : year-month-day
-* ### Rented Bike count - Count of bikes rented at each hour
-* ### Hour - Hour of he day
-* ### Temperature-Temperature in Celsius
-* ### Humidity - %
-* ### Windspeed - m/s
-* ### Visibility - 10m
-* ### Dew point temperature - Celsius
-* ### Solar radiation - MJ/m2
-* ### Rainfall - mm
-* ### Snowfall - cm
-* ### Seasons - Winter, Spring, Summer, Autumn
-* ### Holiday - Holiday/No holiday
-* ### Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
+* Date : year-month-day
+*  Rented Bike count - Count of bikes rented at each hour
+*  Hour - Hour of he day
+* Temperature-Temperature in Celsius
+* Humidity - %
+* Windspeed - m/s
+* Visibility - 10m
+* Dew point temperature - Celsius
+* Solar radiation - MJ/m2
+* Rainfall - mm
+* Snowfall - cm
+* Seasons - Winter, Spring, Summer, Autumn
+* Holiday - Holiday/No holiday
+* Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
+
+## **Project Files :**
+
+* **Bike Sharing Demand Prediction-** Capstone Project.ipynb - This file includes complete implementation of the project such as Features description, exploratory data Analysis, feature engineering, feature scaling and implemented algorithms.
+* **Project PPT -** This is a power point presentation file for the  project. It includes various visualaized plots of EDA . The result of the algorithms.
+* **Project Summary -** A brief summary of the project.
+* **Technical Documentation -** This document includes all the basic information and description of different stages of the project.
 
 
-# **Data Pipeline:**
+## **Data Pipeline:**
 
 *  **Data Understanding:** Understanding the data set available, getting to know about the dependent variable and independent variables, their data type, have an overview    of the statistics of the numerical features in our dataset.
 * **Data Processing:** Making the data fit for future analysis is the main objective of this step. During this stage, gone through each input variable and studied the      type of features make them suitable for the analysis and tried to further break down the features into segments to make our dataset more informative like we did        to date column. Also, looked forward to the outliers, null values to keep our data free from any anomaly. Checking for the duplicate values as it can mar the          accuracy of our dataset. 
@@ -33,19 +40,29 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 * **EDA**: EDA or Exploratory Data Analysis to observe  certain trends and dependencies and also drawn certain conclusions from the dataset that will be useful for        further processing
 
 * **Model Building:** During this step we have fit our data to different models and tried to fit our data to different models and predicted the output and then            calculated the metrics to check which ever model fits the best for further predictions.
+ 
 
-# **Observations:**
+## **Observations:**
 * From the model evaluation table Linear regression ,Ridge Regression,Lasso Regression is not giving great results.
 
 * Random Forest tuning with Randomized Search CV and  Gradient Boosting Regressor with GridSearchCV is giving comparably good results R2 score is 89% and 91% repectively.
 
+## **Model Reference:**
+* #### Linear Regression: https://machinelearningmastery.com/linear-regression-for-machine-learning/
+* #### Lasso Regression: https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+* #### Ridge Regression: https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+* #### Decision Tree : https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm
+* #### Random Forest: https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f
+* #### Gradient Boosting: https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/
 
-# **Summary:**
-* Starting with loading the data and having an understanding of the data next step is processing the data set by looking and treating the outliers, duplicates, missing values ,encoding of categorical columns, transforming the data,checking, transforming the data according to the assumption  was a challenging task and at last building the model. Testing the models on the test data the R2 score ranged from 54.5% to 91.5% and hypertunned  Gradient Boosting Regressor giving the best results.
+## **Summary:**
+  Starting with loading the data and having an understanding of the data next step is processing the data set by looking and treating the outliers, duplicates, missing   values ,encoding of categorical columns, transforming the data,checking, transforming the data according to the assumption  was a challenging task and at last         building the model. Testing the models on the test data the R2 score ranged from 54.5% to 91.5% and hypertunned  Gradient Boosting Regressor giving the best results.
+
+## **Credit:**
+* Parth Sharma | Data Scientist | Machine Learning Enthusiast
 
 
-
-
-
-
+## **References:**
+* https://github.com/subhendughosh91/Bike-Sharing-Linear-Regression-Prediction/blob/master/Code.ipynb 
+* https://www.jeremyjordan.me/hyperparameter-tuning/
 
